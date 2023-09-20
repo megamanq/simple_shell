@@ -159,7 +159,7 @@ int history_display(char **cmd_args, int status)
 	(void)cmd_args;
 	(void)status;
 
-	history_fn = ".simple_shell_history";
+	history_fn = ".history_logfile";
 	file_ptr = fopen(history_fn, "r");
 	if (file_ptr == NULL)
 	{

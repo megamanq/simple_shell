@@ -45,7 +45,7 @@ int change_directory(char **cmd_args, __attribute__((unused)) int lst_cmd_stat)
  */
 int history(char *us_in)
 {
-	char *filename = ".simple_shell_history";
+	char *filename = ".history_logfile";
 	ssize_t file_desc, write_res;
 	int input_len = 0;
 
