@@ -38,7 +38,7 @@ void print_err(char *cmd, int er_cnt, char **prog_name)
 	free(error_msg);
 	LOG(": ");
 	LOG(cmd);
-	LOG(": not found\n");
+	LOG(": No such file or directory\n");
 }
 
 /**

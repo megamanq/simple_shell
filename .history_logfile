@@ -2,3 +2,16 @@ ls
 la
 [D[C
 exit
+ls
+/bin/ls
+/bin/ls -l
+^[[D^[[D^[[D
+^C
+echo "/bin/ls" | ./shell
+echo "/bin/ls" | ./shell
+echo "/bin/ls" | ./hsh
+exit
+jkfgdg
+exit
+dfgdfgdfg
+:wq
