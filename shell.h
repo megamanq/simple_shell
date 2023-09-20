@@ -82,7 +82,7 @@ int verif_cmnd(char **cmnd, char *usr_in, int err_c, char **prog_name);
 int show_help(char **command, __attribute__((unused)) int status);
 int ex_bltn(char **command, int error_status);
 int history_display(char **cmd_args, int status);
-int change_directory(char **cmd_args, __attribute__((unused)) int lst_cmd_stat);
+int change_directory(char **cmd_args, __attribute__((unused)) int lst_cmd_sta);
 int history(char *us_in);
 char *build_path(char *token, char *directory);
 int bultn_check(char **command);
