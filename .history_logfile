@@ -15,3 +15,24 @@ jkfgdg
 exit
 dfgdfgdfg
 :wq
+valgrind ^[[C^[[C^[[C^[[C
+^[[C^[[C^[[C^[[C
+valgrind ^[[C^[[C^[[C^[[C
+^[[D^[[D^[[D
+exit
+/bin/ls
+env
+valgrind env
+env
+exit
+exit 98
+exit
+exit
+/bin/ls /test_hbtnexit
+env
+ /bin/ls 
+	/bin/ls		
+exit
+exit 1000
+/bin/echo HBTN/bin/echo HBTN#This is a comment
+/bin/echo 

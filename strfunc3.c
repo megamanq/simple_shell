@@ -28,13 +28,22 @@ unsigned int isDelimiter(char character, const char *string)
 void handle_sharp(char *input)
 {
 	int index = 0;
+	int is_whitespace = 1;	/* Initialize to true */
 
 	while (input[index] != '\0')
 	{
-		if (input[index] == '#')
+		if (input[index] == ' ')
+		{
+			is_whitespace = 1;
+		}
+		else if (is_whitespace && input[index] == '#')
 		{
 			input[index] = '\0';
 			break;
+		}
+		else
+		{
+			is_whitespace = 0;
 		}
 		index++;
 	}
