@@ -34,5 +34,3 @@ env
 	/bin/ls		
 exit
 exit 1000
-/bin/echo HBTN/bin/echo HBTN#This is a comment
-/bin/echo 
