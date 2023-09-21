@@ -48,7 +48,6 @@ void handle_sharp(char *input)
 		index++;
 	}
 }
-
 /**
  * c_strncmp - Compare a specified number of characters in two strings.
  * @str1: The first string to compare.

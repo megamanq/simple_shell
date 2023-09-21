@@ -34,3 +34,8 @@ env
 	/bin/ls		
 exit
 exit 1000
+/bin/echo exit
+exit
+exit
+#kled
+exit
