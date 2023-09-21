@@ -158,7 +158,6 @@ char *c_getline()
  * @argv: The command line arguments.
  * Return: void
  */
-
 void file_scan(char *filename, char **argv)
 {
 	FILE *file_ptr;
@@ -169,7 +168,8 @@ void file_scan(char *filename, char **argv)
 	file_ptr = fopen(filename, "r");
 	if (file_ptr == NULL)
 	{
-		exit(EXIT_FAILURE);
+		fprintf(stderr, "Can't open %s\n", filename);
+		exit(127);
 	}
 	for (; getline(&buffer, &length, file_ptr) != -1; count++)
 	{
